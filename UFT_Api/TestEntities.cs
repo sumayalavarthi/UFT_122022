@@ -18,12 +18,17 @@ using System;
     	throw new Exception(("A data source with the specified name does not exist."));
     return dataSourceNameToDataSource[dataSourceName];
     }
+    public HP.ST.Ext.BasicActivities.DataFetchActivity DataFetchActivity12 = null;
     public HP.ST.Ext.BasicActivities.StartActivity StartActivity1 = null;
     public HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop<Loop2Input> Loop2 = null;
+    public HP.ST.Ext.BasicActivities.DataExporterActivity DataExporterActivity14 = null;
+    public HP.ST.Ext.BasicActivities.DataExporterCloseActivity DataExporterCloseActivity15 = null;
     public HP.ST.Ext.BasicActivities.EndActivity EndActivity3 = null;
-    public HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence Sequence6 = null;
+    public HP.ST.Ext.BasicActivities.DataDisconnectActivity DataDisconnectActivity13 = null;
+    public HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence Sequence11 = null;
     public HP.ST.Ext.WebServicesActivities.StServiceCallActivity StServiceCallActivity4 = null;
     public HP.ST.Ext.WebServicesActivities.StServiceCallActivity StServiceCallActivity5 = null;
+    public HP.ST.Ext.WebServicesActivities.StServiceCallActivity StServiceCallActivity6 = null;
     
     }
     
